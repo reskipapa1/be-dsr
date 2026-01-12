@@ -11,6 +11,7 @@ import lokasiRoutes from "./routes/lokasiroute";
 import monitoringRoutes from "./routes/monitoringroute";
 import peminjamanRoutes from "./routes/peminjamanroute";
 import laporanRoutes from "./routes/laporanroute";
+import cronRoute from "./routes/cronRoute";
 
 dotenv.config();
 
@@ -94,6 +95,7 @@ app.use(`${API_PREFIX}/lokasi`, lokasiRoutes);
 app.use(`${API_PREFIX}/monitoring`, monitoringRoutes);
 app.use(`${API_PREFIX}/peminjaman`, peminjamanRoutes);
 app.use(`${API_PREFIX}/laporan`, laporanRoutes);
+app.use("/api/cron", cronRoute); 
 
 // 404 Handler
 app.use((_req: Request, res: Response) => {
