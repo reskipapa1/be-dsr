@@ -255,7 +255,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "/Users/macbook/project-bmn/be-dsr/generated/prisma",
+      "value": "C:\\Users\\Rezki Rahmat Alfi\\bmnfaste\\be-dsr\\generated\\prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -264,7 +264,7 @@ const config = {
     "binaryTargets": [
       {
         "fromEnvVar": null,
-        "value": "darwin",
+        "value": "windows",
         "native": true
       },
       {
@@ -273,7 +273,7 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "/Users/macbook/project-bmn/be-dsr/prisma/schema.prisma",
+    "sourceFilePath": "C:\\Users\\Rezki Rahmat Alfi\\bmnfaste\\be-dsr\\prisma\\schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
